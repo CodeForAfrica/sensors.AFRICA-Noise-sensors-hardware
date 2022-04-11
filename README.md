@@ -1,4 +1,4 @@
-# sensors.AFRICA Noise Monitor Kits Hardware
+# sensors.AFRICA Noise Sensor Kits Hardware
 
 
 ## Tools used
