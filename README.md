@@ -1,4 +1,4 @@
-# sensors.AFRICA GSM AQ Kits Hardware
+# sensors.AFRICA Noise Monitor Kits Hardware
 
 
 ## Tools used
@@ -10,7 +10,7 @@
 
 ## sensors.AFRICA Stack
 
-1. Firmware - https://github.com/CodeForAfrica/sensors.AFRICA-AQ-sensors-software
+1. Firmware - https://github.com/CodeForAfrica/sensors.AFRICA-Noise-sensors-software
 2. API - https://github.com/CodeForAfricaLabs/sensors.AFRICA-AQ-api
 3. Map - https://github.com/CodeForAfrica/sensors.AFRICA-AQ-map-v2
 
@@ -26,7 +26,7 @@ GNU General Public License v3.0
 
 sensors.AFRICA is a citizen-science focused project by Code for Africa that seeks to address data gaps by providing low cost sensors, which people can use to measure and monitor the quality of the air, water, and environment in their communities. This web app seeks to be the public portal through which most users would discover and explore the data and intiative.
 
-Copyright (C) 2021 Code for Africa
+Copyright (C) 2022 Code for Africa
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

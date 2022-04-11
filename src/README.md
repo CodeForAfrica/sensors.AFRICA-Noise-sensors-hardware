@@ -1,8 +1,8 @@
-# sensors.AFRICA / GSM AQ sensors hardware
+# sensors.AFRICA / Noise sensors hardware
 
 This folder contains the Eagle design files for the sensors.AFRICA GSM boards.
 
 ### Folders
 
-* **AQ_sensor** The Printed Circuit Board of the AQ kit
+* **Noise sensor** The Printed Circuit Board of the Noise Sensor kit
 
