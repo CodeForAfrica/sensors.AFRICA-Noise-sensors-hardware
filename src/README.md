@@ -1,6 +1,6 @@
 # sensors.AFRICA / Noise sensors hardware
 
-This folder contains the Eagle design files for the sensors.AFRICA GSM boards.
+This folder contains the Eagle design files for the sensors.AFRICA Noise Sensor boards.
 
 ### Folders
 
