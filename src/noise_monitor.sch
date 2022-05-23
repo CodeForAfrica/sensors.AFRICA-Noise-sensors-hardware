@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -26899,44 +26899,78 @@ Source: &lt;a href= "http://www.amphenol.info/downloads/C707_10M006_512_2.pdf"&g
 </sheet>
 </sheets>
 <errors>
-<approved hash="101,1,351.028,236.728,X1-1,S,,,,"/>
-<approved hash="101,1,351.028,234.188,X1-2,S,,,,"/>
-<approved hash="101,1,351.028,231.648,X1-3,S,,,,"/>
-<approved hash="101,1,351.028,224.028,X1-6,S,,,,"/>
-<approved hash="104,1,63.5,25.4,U3,IN,+5V,,,"/>
-<approved hash="104,1,88.9,25.4,U3,OUT,+3V3,,,"/>
-<approved hash="104,1,88.9,22.86,U3,TAB,+3V3,,,"/>
-<approved hash="104,2,347.98,233.68,U1,VBAT,V_LIPO,,,"/>
-<approved hash="104,2,347.98,228.6,U1,VEXT,2.8V,,,"/>
-<approved hash="202,2,347.98,215.9,U1,MIC1P,,,,"/>
-<approved hash="202,2,347.98,213.36,U1,MIC1N,,,,"/>
-<approved hash="202,2,347.98,205.74,U1,MIC2P,,,,"/>
-<approved hash="202,2,347.98,203.2,U1,MIC2N,,,,"/>
-<approved hash="202,2,347.98,185.42,U1,PCMIN,,,,"/>
-<approved hash="202,2,347.98,137.16,U1,UART_DTR,,,,"/>
-<approved hash="202,2,347.98,132.08,U1,UART_DCD,,,,"/>
-<approved hash="202,2,347.98,127,U1,UART_RTS,,,,"/>
-<approved hash="204,2,347.98,116.84,U1,VBUS,,,,"/>
 <approved hash="202,2,347.98,106.68,U1,ADC,,,,"/>
-<approved hash="104,2,347.98,88.9,U1,VSIM,1.8V,,,"/>
-<approved hash="202,2,347.98,78.74,U1,SIMPRE,,,,"/>
-<approved hash="202,2,347.98,55.88,U1,ISINK1,,,,"/>
 <approved hash="202,2,347.98,53.34,U1,ISINK0,,,,"/>
-<approved hash="104,2,94.234,202.946,IC2,VSS,GND,,,"/>
+<approved hash="202,2,347.98,55.88,U1,ISINK1,,,,"/>
+<approved hash="202,2,347.98,213.36,U1,MIC1N,,,,"/>
+<approved hash="202,2,347.98,215.9,U1,MIC1P,,,,"/>
+<approved hash="202,2,347.98,203.2,U1,MIC2N,,,,"/>
+<approved hash="202,2,347.98,205.74,U1,MIC2P,,,,"/>
+<approved hash="202,2,347.98,185.42,U1,PCMIN,,,,"/>
+<approved hash="202,2,347.98,78.74,U1,SIMPRE,,,,"/>
+<approved hash="202,2,347.98,132.08,U1,UART_DCD,,,,"/>
+<approved hash="202,2,347.98,137.16,U1,UART_DTR,,,,"/>
+<approved hash="202,2,347.98,127,U1,UART_RTS,,,,"/>
+<approved hash="104,2,347.98,233.68,U1,VBAT,V_LIPO,,,"/>
+<approved hash="104,2,347.98,116.84,U1,VBUS,VB,,,"/>
+<approved hash="104,2,347.98,228.6,U1,VEXT,2.8V,,,"/>
+<approved hash="104,2,347.98,88.9,U1,VSIM,1.8V,,,"/>
 <approved hash="104,2,66.294,213.106,IC2,VDD,+5V,,,"/>
-<approved hash="104,2,288.036,96.266,X4,GND1,GND,,,"/>
-<approved hash="104,2,288.036,91.186,X4,GND2,GND,,,"/>
-<approved hash="104,2,272.796,96.266,X4,GND3,GND,,,"/>
-<approved hash="104,2,272.796,91.186,X4,GND4,GND,,,"/>
-<approved hash="104,2,63.5,30.48,U2E,VCC,+5V,,,"/>
-<approved hash="106,1,20.32,22.86,D+,,,,,"/>
-<approved hash="106,1,20.32,20.32,D-,,,,,"/>
-<approved hash="113,1,41.8677,165.39,SV1,,,,,"/>
-<approved hash="113,1,19.0077,165.39,SV2,,,,,"/>
+<approved hash="104,2,94.234,202.946,IC2,VSS,GND,,,"/>
+<approved hash="104,2,63.5,30.48,U2E,VCC,+3V3,,,"/>
+<approved hash="202,1,25.4,222.25,U4,CS0,,,,"/>
+<approved hash="202,1,25.4,224.79,U4,SCLK,,,,"/>
+<approved hash="104,1,60.96,232.41,U4,VCC,+3V3,,,"/>
+<approved hash="104,1,222.25,223.52,MK2,VDD,+3V3,,,"/>
+<approved hash="202,1,357.886,196.088,U5,CTS,,,,"/>
+<approved hash="202,1,312.166,213.868,U5,DCD,,,,"/>
+<approved hash="202,1,357.886,193.548,U5,DSR,,,,"/>
+<approved hash="104,1,357.886,226.568,U5,VDD,N$1,,,"/>
+<approved hash="104,1,43.688,90.678,U6,INPUT,+5V,,,"/>
+<approved hash="104,2,274.32,83.82,X1,GND1,GND,,,"/>
+<approved hash="104,2,269.24,83.82,X1,GND2,GND,,,"/>
+<approved hash="104,2,274.32,99.06,X1,GND3,GND,,,"/>
+<approved hash="104,2,269.24,99.06,X1,GND4,GND,,,"/>
+<approved hash="208,1,67.31,232.41,+3V3,sup,,,,"/>
+<approved hash="208,1,106.68,210.82,+3V3,sup,,,,"/>
+<approved hash="208,1,248.92,223.52,+3V3,sup,,,,"/>
+<approved hash="208,1,115.57,186.69,+3V3,sup,,,,"/>
+<approved hash="208,1,111.76,234.95,+3V3,sup,,,,"/>
+<approved hash="208,1,309.626,239.522,+3V3,sup,,,,"/>
+<approved hash="208,1,287.528,176.022,+3V3,sup,,,,"/>
+<approved hash="208,1,287.274,183.388,+3V3,sup,,,,"/>
+<approved hash="208,1,84.328,90.678,+3V3,out,,,,"/>
+<approved hash="208,1,91.948,90.678,+3V3,sup,,,,"/>
+<approved hash="208,1,41.148,85.598,+3V3,sup,,,,"/>
+<approved hash="208,1,29.718,83.058,+3V3,sup,,,,"/>
+<approved hash="208,1,45.212,119.126,+3V3,sup,,,,"/>
+<approved hash="208,1,119.38,41.148,+3V3,sup,,,,"/>
+<approved hash="208,1,372.364,215.392,+3V3,sup,,,,"/>
+<approved hash="208,2,57.404,35.814,+3V3,sup,,,,"/>
+<approved hash="208,2,262.382,123.19,+3V3,sup,,,,"/>
+<approved hash="106,2,347.98,228.6,2.8V,,,,,"/>
+<approved hash="209,2,347.98,58.42,GSM_RST,,,,,"/>
+<approved hash="106,2,347.98,58.42,GSM_RST,,,,,"/>
+<approved hash="106,1,25.4,207.01,IO4,,,,,"/>
+<approved hash="106,1,25.4,204.47,IO5,,,,,"/>
+<approved hash="106,1,60.96,204.47,IO16,,,,,"/>
+<approved hash="106,2,347.98,116.84,VB,,,,,"/>
+<approved hash="108,1,109.728,218.44,GND,,,,,"/>
+<approved hash="108,1,113.538,195.58,GND,,,,,"/>
+<approved hash="108,1,98.298,195.58,IO0,,,,,"/>
+<approved hash="113,1,66.802,119.448,USB,,,,,"/>
 <approved hash="113,1,193.571,130.071,FRAME1,,,,,"/>
 <approved hash="113,2,193.571,130.071,FRAME2,,,,,"/>
 <approved hash="113,2,357.315,140.97,U1,,,,,"/>
-<approved hash="113,2,107.933,220.698,CN1,,,,,"/>
+<approved hash="113,2,286.766,140.53,NET,,,,,"/>
+<approved hash="113,2,286.766,131.894,PWR,,,,,"/>
+<approved hash="113,2,44.196,205.808,CHRG,,,,,"/>
+<approved hash="113,2,43.942,196.02,FULL,,,,,"/>
+<approved hash="113,2,286.766,123.512,RI,,,,,"/>
+<approved hash="113,1,303.53,184.201,TXT,,,,,"/>
+<approved hash="113,1,304.038,176.835,RXT,,,,,"/>
+<approved hash="113,2,272.612,91.44,X1,,,,,"/>
+<approved hash="113,2,114.029,220.444,CN1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
