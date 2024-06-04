@@ -26,8 +26,9 @@ Latest PCB Design on](https://a360.co/4bMNexy) Fusion360
 ![Back layer](/images/noise-sensor-back.jpg)
 
 ### Pinout 
-**RX** and **TX** pins on the ESP-12 to communicate to the GSM are **0** and **2** respectively.
-The **GSM RESET** pin on is **NOT** physically connected to the ESP module.
+- **RX** and **TX** pins on the ESP-12 to communicate to the GSM are **0** and **2** respectively.
+- The **GSM RESET** pin is **NOT** physically connected to the ESP module.
+
 ## License
 
 GNU General Public License v3.0
